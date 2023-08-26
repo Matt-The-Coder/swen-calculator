@@ -1,0 +1,28 @@
+.Header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: var(--header-footer-bg);
+}
+.Header .logoImg{
+    height: auto;
+    width: auto;
+    margin-right: auto;
+}
+.Header .logoImg img{
+    height: 70px;
+    width: auto;
+}
+.Header .loginEmail{
+   margin-right: 40px;
+   margin-top: 20px;
+}
+.Header .logoutBtn{
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.Header .logoutBtn button{
+ cursor: pointer;
+ padding: 5px 3px;
+ border-radius: 15px;
+}

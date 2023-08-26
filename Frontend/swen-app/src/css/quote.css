@@ -1,0 +1,80 @@
+.quotePage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(48, 45, 45);
+}
+
+.tableForm table, .tableForm table tr, .tableForm table th, .tableForm table td{
+    border-collapse: collapse;
+}
+.tableForm table #thead th{
+    background-color: var(--header-footer-bg);
+    padding: 12px 0px;
+}
+.tableForm table td input{
+    padding: 3.5px 2px;
+    border: none;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 65%;
+}
+.tableForm table tr{
+    border-bottom: 1px solid rgb(151, 151, 151);
+   
+}
+.buttonForms{
+    margin-top: 10px;
+}
+.buttonForms button{
+    margin: 0px 5px;
+    padding: 6px  11px;
+    cursor: pointer;
+    background-color: var(--header-footer-bg);
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px black;
+}
+#inputBorder{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3.5px 2px;
+}
+
+
+
+@media print {
+  .buttonForms{
+    display: none;
+  }
+ 
+ *{
+    font-size: 14px;
+ }
+ .quotePage .carTitle h1{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .Header .loginEmail, .Header .logoutBtn{
+    display: none;
+  }
+  .Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1080px)  {
+
+
+ 
+    .quotePage .carTitle h1{
+        font-size: 20px;
+    }
+    .quotePage .tableForm{
+        font-size: 14px;
+    }
+  }
+  
