@@ -10,7 +10,7 @@ const Header = () =>{
     return(
        <div className="Header">
         <div className="logoImg">
-        <img src="/src/assets/images/swen-logo.png" alt="SWEN logo" onClick={homeClicked} style={{cursor:'pointer'}}/>
+        <img src="/assets/swen-logo.png" alt="SWEN logo" onClick={homeClicked} style={{cursor:'pointer'}}/>
         </div>
         <div className="loginEmail">
             <p>Logged in as {loginUSer?.email}</p></div>
