@@ -29,7 +29,7 @@ const Form = ({ email, password, setEmail, setPassword, auth, errorMessage }) =>
     return (
       <div className="form-Container">
         <div className="logo-Container">
-          <img src="./src/assets/images/swen-logo.png" alt="Swen-Logo" />
+          <img src="/src/assets/images/swen-logo.png" alt="Swen-Logo" />
           <p>SWEN Caloocan</p>
         </div>
      {errorMessage !== ''?
@@ -58,8 +58,8 @@ const Form = ({ email, password, setEmail, setPassword, auth, errorMessage }) =>
             id="password"
             required
             placeholder="Enter Password"
-            size='6'
-            maxLength="10"
+            size='20'
+            maxLength="20"
             autoComplete="current-password"
             value={password.data}
             onChange={(e) => {

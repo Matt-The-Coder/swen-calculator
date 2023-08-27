@@ -19,7 +19,7 @@ const Homelayout = () => {
   }
 
    if (user == null) {
-     window.location = './login'
+     window.location = '/login'
     }
 
 
