@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 
 const dbCredentials = {
-    host: 'localhost',
-    user: 'Matthew',
-    password: '123', // Password should be a string, not a number
-    database: 'swen',
-    port: 3307
+    host: 'bncvmljswjf6puzcuhuf-mysql.services.clever-cloud.com',
+    user: 'uhpygwdzyl4luoy1',
+    password: 'oSIref3uFecmHoN9Lg9Z', // Password should be a string, not a number
+    database: 'bncvmljswjf6puzcuhuf',
+    port: 3306
 };
 
 const db = mysql.createPool(dbCredentials);
